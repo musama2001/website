@@ -1,0 +1,15 @@
+{
+  "name": "pivot-pulse-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -c \"blue,magenta\" -n \"SERVER,FRONTEND\" \"npm run dev -w server\" \"npm run dev -w frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

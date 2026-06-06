@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest",
+    "@react-three/fiber": "latest",
+    "three": "latest",
+    "@react-three/drei": "latest",
+    "framer-motion": "latest",
+    "axios": "latest",
+    "clsx": "latest",
+    "next-themes": "latest"
+  }
+}
